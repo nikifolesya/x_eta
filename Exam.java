@@ -1,55 +1,6 @@
 import java.util.*;
 
 public class Exam {
-    public static void main(String[] args) {
-        System.out.println("__________№1__________");
-        System.out.println(combinations(2, 3));
-        System.out.println(combinations(3, 7, 4));
-        System.out.println(combinations(2, 3, 4, 5));
-        System.out.println("__________№2__________");
-        System.out.println(numInStr(new String [] {"1a", "a", "2b", "b"}));
-        System.out.println(numInStr(new String [] {"abc", "abc10"}));
-        System.out.println(numInStr(new String [] {"abc", "ab10c", "a10bc", "bcd"}));
-        System.out.println(numInStr(new String [] {"this is a test", "test1"}));
-        System.out.println(numInStr(new String [] {"this is a test"}));
-        System.out.println("__________№3__________");
-        System.out.println(isTriplet(3, 4, 5));
-        System.out.println(isTriplet(13, 5, 12));
-        System.out.println(isTriplet(1, 2, 3));
-        System.out.println(isTriplet(72, 54, 90));
-        System.out.println(isTriplet(54, 46, 72));
-        System.out.println(isTriplet(80, 48, 64));
-        System.out.println("__________№4__________");
-        System.out.println(duplicates("Hello World!"));
-        System.out.println(duplicates("foobar"));
-        System.out.println(duplicates("helicopter"));
-        System.out.println(duplicates("birthday"));
-        System.out.println(duplicates("Can you stay here?"));
-        System.out.println("__________№5__________");
-        System.out.println(capSpace("helloWorld"));
-        System.out.println(capSpace("iLoveMyTeapot"));
-        System.out.println(capSpace("stayIndoors"));
-        System.out.println("__________№6__________");
-        System.out.println(letter("HowAreYou"));
-        System.out.println("__________№7__________");
-        System.out.println(histogram(new int[] {1, 3, 4}, "#"));
-        System.out.println(histogram(new int[] {1, 10}, "+"));
-        System.out.println(histogram(new int[] {6, 2, 15, 3}, "="));
-        System.out.println("__________№8__________");
-        System.out.println(littleBig(4));
-        System.out.println(littleBig(5));
-        System.out.println(littleBig(28));
-        System.out.println(littleBig(2));
-        System.out.println(littleBig(1));
-        System.out.println("__________№9__________");
-        System.out.println(primorial(1));
-        System.out.println(primorial(2));
-        System.out.println(primorial(8));
-        System.out.println("__________№10__________");
-        System.out.println(isBetween("apple", "banana", "azure"));
-        System.out.println(isBetween("monk", "monument", "monkey"));
-        System.out.println(isBetween("bookend", "boolean", "boost"));
-    }
 
     public static int combinations(int ...nums) {
         int s = 1;
@@ -194,4 +145,55 @@ public class Exam {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println("__________№1__________");
+        System.out.println(combinations(2, 3));
+        System.out.println(combinations(3, 7, 4));
+        System.out.println(combinations(2, 3, 4, 5));
+        System.out.println("__________№2__________");
+        System.out.println(numInStr(new String [] {"1a", "a", "2b", "b"}));
+        System.out.println(numInStr(new String [] {"abc", "abc10"}));
+        System.out.println(numInStr(new String [] {"abc", "ab10c", "a10bc", "bcd"}));
+        System.out.println(numInStr(new String [] {"this is a test", "test1"}));
+        System.out.println(numInStr(new String [] {"this is a test"}));
+        System.out.println("__________№3__________");
+        System.out.println(isTriplet(3, 4, 5));
+        System.out.println(isTriplet(13, 5, 12));
+        System.out.println(isTriplet(1, 2, 3));
+        System.out.println(isTriplet(72, 54, 90));
+        System.out.println(isTriplet(54, 46, 72));
+        System.out.println(isTriplet(80, 48, 64));
+        System.out.println("__________№4__________");
+        System.out.println(duplicates("Hello World!"));
+        System.out.println(duplicates("foobar"));
+        System.out.println(duplicates("helicopter"));
+        System.out.println(duplicates("birthday"));
+        System.out.println(duplicates("Can you stay here?"));
+        System.out.println("__________№5__________");
+        System.out.println(capSpace("helloWorld"));
+        System.out.println(capSpace("iLoveMyTeapot"));
+        System.out.println(capSpace("stayIndoors"));
+        System.out.println("__________№6__________");
+        System.out.println(letter("HowAreYou"));
+        System.out.println("__________№7__________");
+        System.out.println(histogram(new int[] {1, 3, 4}, "#"));
+        System.out.println(histogram(new int[] {1, 10}, "+"));
+        System.out.println(histogram(new int[] {6, 2, 15, 3}, "="));
+        System.out.println("__________№8__________");
+        System.out.println(littleBig(4));
+        System.out.println(littleBig(5));
+        System.out.println(littleBig(28));
+        System.out.println(littleBig(2));
+        System.out.println(littleBig(1));
+        System.out.println("__________№9__________");
+        System.out.println(primorial(1));
+        System.out.println(primorial(2));
+        System.out.println(primorial(8));
+        System.out.println("__________№10__________");
+        System.out.println(isBetween("apple", "banana", "azure"));
+        System.out.println(isBetween("monk", "monument", "monkey"));
+        System.out.println(isBetween("bookend", "boolean", "boost"));
+    }
+    
 }
